@@ -1,5 +1,6 @@
 body {
   background-color: #ffffff;
+  font-weight: 600;
 }
 
 .App {
@@ -9,10 +10,9 @@ body {
 }
 
 .App header {
-  background-color: #2f2b2b;
-  height: 10vh;
+  background-color: #1f271b;
   min-height: 50px;
-  color: white;
+  color: #fffbfa;
   position: fixed;
   width: 100%;
   max-width: 728px;
@@ -30,7 +30,7 @@ body {
   flex-direction: column;
   justify-content: center;
   min-height: 100vh;
-  background-color: rgb(105, 89, 177);
+  background-color: #349ad5;
 }
 
 main {
@@ -43,15 +43,16 @@ main {
 }
 
 main::-webkit-scrollbar {
-  width: 0.25rem;
+  width: 0.3rem;
 }
 
 main::-webkit-scrollbar-track {
-  background: #1e1e24;
+  background: #c7c7f2;
 }
 
 main::-webkit-scrollbar-thumb {
-  background: #5b38b9;
+  background: #7559c2;
+  border-radius: 20px;
 }
 
 form {
@@ -67,7 +68,7 @@ form {
 
 form button {
   width: 20%;
-  background-color: rgb(66, 66, 145);
+  background-color: #eac10b;
   border-radius: 70px;
 }
 
@@ -78,7 +79,7 @@ input {
   margin: 15px 0;
   font-size: 1.5rem;
   background: rgb(58, 58, 58);
-  color: white;
+  color: #fffbfa;
   outline: none;
   border: none;
   border-radius: 80px;
@@ -86,10 +87,11 @@ input {
 }
 
 button {
-  background-color: #282c34; /* Green */
+  background-color: #eac10b;
   height: 55px;
   border: none;
-  color: white;
+  border-radius: 20px;
+  color: #1f271b;
   padding: 15px 32px;
   margin: 12px 0 0 20px;
   text-align: center;
@@ -127,7 +129,7 @@ p {
   padding: 10px 20px;
   border-radius: 25px;
   position: relative;
-  color: white;
+  color: #fffbfa;
   text-align: center;
 }
 
@@ -142,13 +144,13 @@ p {
 }
 
 .sent p {
-  color: white;
-  background: #0b93f6;
+  color: #fffbfa;
+  background: #304c89;
   align-self: flex-end;
 }
 .received p {
-  background: #e5e5ea;
-  color: black;
+  background: #f6d43c;
+  color: #1f271b;
 }
 
 img {
