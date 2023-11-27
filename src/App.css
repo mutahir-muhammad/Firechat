@@ -11,6 +11,7 @@ body {
 
 .App header {
   background-color: #1f271b;
+  font-size: 30px;
   min-height: 50px;
   color: #fffbfa;
   position: fixed;
@@ -35,7 +36,7 @@ body {
 
 main {
   padding: 10px;
-  height: 80vh;
+  height: 76vh;
   margin: 10vh 0 10vh;
   overflow-y: scroll;
   display: flex;
@@ -51,7 +52,7 @@ main::-webkit-scrollbar-track {
 }
 
 main::-webkit-scrollbar-thumb {
-  background: #7559c2;
+  background: #304c89;
   border-radius: 20px;
 }
 
