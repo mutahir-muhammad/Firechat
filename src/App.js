@@ -68,7 +68,7 @@ function SignIn() {
     auth.signInWithPopup(provider)
   }
   return (
-    <button onClick={signInWithGoogle}>Sign In with google</button>
+    <button className='sign-in' onClick={signInWithGoogle}>Sign In with Google</button>
   )
 }
 
@@ -104,6 +104,7 @@ function Chatroom() {
       text: formValue,
       createdAt: firebase.firestore.FieldValue.serverTimestamp(),
       uid,
+      photoURL,
     })
 
     setFormValue('');
@@ -147,7 +148,7 @@ function ChatMessage(props) {
 
   return (<>
     <div className={`message ${messageStatus}`}>
-    <img src={photoURL || 'https://api.adorable.io/avatars/23/abott@adorable.png'} alt='dp' />
+      <img src={photoURL} />
       <p>{text}</p>
     </div>
   </>)

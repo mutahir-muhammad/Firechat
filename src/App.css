@@ -109,10 +109,12 @@ button:disabled {
 
 
 .sign-in {
-  color: #282c34;
-  background: white;
-  max-width: 400px;
+  color: #1f271b;
+  background: #f6d43c;
+  font-weight: 600;
+  max-width: 360px;
   margin: 0 auto;
+
 }
 
 
